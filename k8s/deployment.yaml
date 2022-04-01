@@ -4,6 +4,7 @@ kind: Deployment
 metadata:
   name: dep
 spec:
+  replicas: 5
   selector:
     matchLabels:
       app: conv
